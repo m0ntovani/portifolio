@@ -1,7 +1,7 @@
 <template>
     <header>
        <h1>Thiffany Montovani</h1>
-        <p>Front-End Developer<p>
+        <p>Dev Front-End<p>
         </header>
     <main>
         <section id="foto">
@@ -13,9 +13,8 @@
 
         <section id="sobre">
         <h2>Sobre Mim</h2>
-        <p>👋🏽 Prazer! Me chamo Thiffany Montovani. 
-        Formada em Direito e veterana no curso de Analise e Desenvolvimento de Sistemas!
-        <p>Estou sempre em busca de novos desafios e de obter de entrar no mercado, além de colaborar em projetos que unam inovação e impacto social.   
+        <p>👋🏽 Prazer! Me chamo Thiffany Montovani. Formada em Direito e veterana no curso de Analise e Desenvolvimento de Sistemas!
+        <p>Estou sempre em busca de novos desafios e de obter de entrar no mercado, além de colaborar em projetos que unam inovação e impacto social. </p> 
         </section>
 
         <section id="gostos">
