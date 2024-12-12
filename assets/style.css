@@ -1,0 +1,136 @@
+/* Reset geral para garantir consistência */
+* {
+    margin: 0;
+        padding: 0;
+            box-sizing: border-box;
+                font-family: 'Montserrat', sans-serif;
+                }
+
+                /* Estilização do Header */
+                header {
+                    color: #ffffff; 
+                        background-color: #e53939; 
+                            padding: 17px;
+                                width: 100%;
+                                    text-align: center; 
+                                        font-size: 1.2em; 
+                                            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
+                                                transition: background-color 0.3s ease;
+                                                    border-radius: 0.6rem;
+                                                    }
+
+                                                    header h1, 
+                                                    header p {
+                                                        margin: 10px 0;
+                                                        }
+
+                                                        header p {
+                                                            font-size: 1rem;
+                                                            }
+
+                                                            /* Estilização para a foto */
+                                                            #foto {
+                                                                margin: 20px 0; 
+                                                                }
+
+                                                                #foto img {
+                                                                    width: 150px; 
+                                                                        height: 150px; 
+                                                                            border-radius: 50%; 
+                                                                                border: 5px solid #e53939; 
+                                                                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+                                                                                        object-fit: cover; 
+                                                                                            transition: transform 0.3s ease;
+                                                                                            }
+
+                                                                                            #foto img:hover {
+                                                                                                transform: scale(1.3);
+                                                                                                }
+
+                                                                                                /* Estilização do Body */
+                                                                                                body {
+                                                                                                    font-family: Arial, sans-serif;
+                                                                                                        background-color: #000000; 
+                                                                                                            color: #ffffff;
+                                                                                                                display: flex;
+                                                                                                                    flex-direction: column;
+                                                                                                                        align-items: center;
+                                                                                                                            text-align: center;
+                                                                                                                                transition: background-color 0.5s ease;
+                                                                                                                                }
+
+                                                                                                                                /* Alteração do fundo ao rolar a página */
+                                                                                                                                body.scroll-effect {
+                                                                                                                                    background-color: #e53939;
+                                                                                                                                    }
+
+                                                                                                                                    /* Estilização de Títulos */
+                                                                                                                                    h1, 
+                                                                                                                                    h2 {
+                                                                                                                                        margin-bottom: 10px;
+                                                                                                                                        }
+
+                                                                                                                                        /* Estilização do Main */
+                                                                                                                                        main {
+                                                                                                                                            padding: 20px;
+                                                                                                                                                max-width: 800px;
+                                                                                                                                                }
+
+                                                                                                                                                /* Seções principais */
+                                                                                                                                                section {
+                                                                                                                                                    margin: 20px 0;
+                                                                                                                                                        padding: 20px;
+                                                                                                                                                            border-radius: 8px;
+                                                                                                                                                                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                                                                                                                                                                    background-color: #ffffff;
+                                                                                                                                                                        transition: background-color 0.3s ease;
+                                                                                                                                                                        }
+
+                                                                                                                                                                        section:hover {
+                                                                                                                                                                            background-color: #f0f0f0;
+                                                                                                                                                                            }
+
+                                                                                                                                                                            /* Estilização de Imagens */
+                                                                                                                                                                            #Java, 
+                                                                                                                                                                            #Vue {
+                                                                                                                                                                                width: 50px; 
+                                                                                                                                                                                    height: auto; 
+                                                                                                                                                                                        margin: 10px; 
+                                                                                                                                                                                            transition: transform 0.2s ease; 
+                                                                                                                                                                                            }
+
+                                                                                                                                                                                            #Java:hover, 
+                                                                                                                                                                                            #Vue:hover {
+                                                                                                                                                                                                transform: scale(1.2);
+                                                                                                                                                                                                }
+
+                                                                                                                                                                                                /* Rodapé */
+                                                                                                                                                                                                footer {
+                                                                                                                                                                                                    background-color: #000000;
+                                                                                                                                                                                                        color: #ffffff; 
+                                                                                                                                                                                                            padding: 10px;
+                                                                                                                                                                                                                width: 100%;
+                                                                                                                                                                                                                    text-align: center;
+                                                                                                                                                                                                                        position: relative;
+                                                                                                                                                                                                                            bottom: 0;
+                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                            /* Estilização da Lista */
+                                                                                                                                                                                                                            ul {
+                                                                                                                                                                                                                                list-style-type: none; 
+                                                                                                                                                                                                                                    padding: 0;
+                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                    ul li {
+                                                                                                                                                                                                                                        background-color: #333333; 
+                                                                                                                                                                                                                                            color: #ffffff; 
+                                                                                                                                                                                                                                                margin: 5px 0;
+                                                                                                                                                                                                                                                    padding: 10px;
+                                                                                                                                                                                                                                                        border-radius: 4px;
+                                                                                                                                                                                                                                                            transition: background-color 0.3s ease;
+                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                            ul li:hover {
+                                                                                                                                                                                                                                                                background-color: #e53939;
+                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                
